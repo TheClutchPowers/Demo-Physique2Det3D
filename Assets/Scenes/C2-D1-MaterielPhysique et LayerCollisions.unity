@@ -277,7 +277,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 118852231}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 80621e71904ad17479e1a81810bc6d10, type: 2}
+  m_Material: {fileID: 6200000, guid: d0cef7bf1d453524bae68e6369f4ca23, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -601,7 +601,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 429417813}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: c170ccd6c579f43488f8c7c3019acd59, type: 2}
+  m_Material: {fileID: 6200000, guid: d0cef7bf1d453524bae68e6369f4ca23, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -639,8 +639,8 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 2
+  m_Mass: 0.0001
+  m_LinearDrag: 0
   m_AngularDrag: 1
   m_GravityScale: 1
   m_Material: {fileID: 0}
@@ -652,7 +652,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!212 &429417817
 SpriteRenderer:
@@ -930,7 +930,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 741310432}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 1b6b1005e7b573a42add40213f83a915, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1115,7 +1115,7 @@ GameObject:
   - component: {fileID: 1484392170}
   - component: {fileID: 1484392172}
   - component: {fileID: 1484392171}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Bloc 2D (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1146,7 +1146,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1484392169}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: d0cef7bf1d453524bae68e6369f4ca23, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
