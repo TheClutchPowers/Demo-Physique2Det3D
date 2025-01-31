@@ -170,7 +170,7 @@ GameObject:
   - component: {fileID: 82546781}
   m_Layer: 0
   m_Name: Cible C
-  m_TagString: Untagged
+  m_TagString: Cible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -401,6 +401,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1211076583}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e8f7ee6044052564489b7ff8502842a5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1211076584}
   m_SourcePrefab: {fileID: 100100000, guid: e8f7ee6044052564489b7ff8502842a5, type: 3}
 --- !u!1001 &265631402
 PrefabInstance:
@@ -1579,6 +1583,18 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.19696155
   m_Center: {x: 0, y: 6.767919e-17, z: 0}
+--- !u!114 &1211076584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211076578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f61027bc95a4941af8f40f82642154, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1634565363
 PrefabInstance:
   m_ObjectHideFlags: 0
